@@ -1,0 +1,58 @@
+.navbarContainer {
+    padding: 10px 5%;
+    background: #ffff;
+}
+
+.navbarContainer nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarContainer .logo ul {
+    list-style: none;
+}
+
+.navbarContainer .logo ul li {
+    padding: 10px;
+}
+
+.navbarContainer .logo ul li a {
+    font-family: 'Bebas Neue', cursive;
+    color: #000;
+    font-size: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbarContainer .linksNavbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbarContainer .linksNavbar ul li {
+    padding: 15px 10px;
+}
+
+.navbarContainer .linksNavbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.navbarContainer .linksNavbar ul li a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.inicialNavbar {
+    border: none;
+    border-radius: 5px;
+    background: #c7c4c4;
+    color: #fff;
+}

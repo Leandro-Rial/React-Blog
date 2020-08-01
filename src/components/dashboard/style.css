@@ -1,0 +1,28 @@
+.dashboardContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.dashboardContainer .inicio {
+    width: 60%;
+}
+
+.dashboardContainer .notificaciones {
+    width: 25%;
+}
+
+.notiDesign {
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.notiDesign h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: gray;
+}

@@ -1,0 +1,145 @@
+.signIn {
+    position: relative;
+    background: #5decc9;
+    padding: 50px;
+    margin: 40px 0;
+}
+
+.signIn .formulario {
+    background: #fff;
+    text-align: center;
+    padding: 5px 80px;
+}
+
+.signIn .formulario .formSignIn {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.signIn .formulario .formSignContainer {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.signIn .formulario .labelForm {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+    padding: 15px;
+}
+
+.signIn .formulario .inputForm {
+    border: none;
+    background: #d9ebe6;
+    padding: 10px;
+}
+
+.signIn .formulario .inputForm:focus {
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.signIn .formulario .btnForm {
+    position: relative;
+    width: 200px;
+    margin: 20px 0;
+    border: none;
+    background: #5decc9;
+    color: #fff;
+    padding: 15px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.signIn .formulario .btnForm:hover {
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(179,173,179,1);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(179,173,179,1);
+    box-shadow: 0px 10px 5px 0px rgba(179,173,179,1);
+}
+
+.contentProjectCreate {
+    border: 1px solid #000; 
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++ SIGN UP +++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+.signUp {
+    position: relative;
+    background: #ee6ec3;
+    padding: 50px;
+    margin: 40px 0;
+}
+
+.signUp .formulario {
+    background: #fff;
+    text-align: center;
+    padding: 5px 80px;
+}
+
+.signUp .formulario .formSignIn {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.signUp .formulario .formSignContainer {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.signUp .formulario .labelForm {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+    padding: 15px;
+}
+
+.signUp .formulario .inputForm {
+    border: none;
+    background: #dfdcee;
+    padding: 10px;
+}
+
+.signUp .formulario .inputForm:focus {
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.signUp .formulario .btnForm {
+    position: relative;
+    width: 200px;
+    margin: 20px 0;
+    border: none;
+    background: #ee6ec3;
+    color: #fff;
+    padding: 15px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.signUp .formulario .btnForm:hover {
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(179,173,179,1);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(179,173,179,1);
+    box-shadow: 0px 10px 5px 0px rgba(179,173,179,1);
+}
+
+.contentProjectCreate {
+    border: 1px solid #000; 
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
